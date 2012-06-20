@@ -1,0 +1,10 @@
+You need to do the following to get the plugin working:
+Add this to the end of the /var/ossec/etc/ossec.conf file, before the closing tag for ossec_config:
+
+  <syslog_output>
+	<server>127.0.0.1</server>
+  </syslog_output>
+
+The av-ossec.conf file is for rsyslog.  Drop it into /etc/rsyslog.d and restart rsyslog with /etc/init.d/rsyslog restart
+
+Now, drop the ossec-oneline.cfg file in at /etc/ossim/agent/plugins/ and configure it in /etc/ossim/agent/config.cfg.orig, then enable it with ossim-setup.  Don't forget to disable the original plugin or you will have duplicate events.

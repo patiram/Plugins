@@ -1,0 +1,27 @@
+--a55dd234-A--
+[09/May/2012:14:50:16 +0000] T6qEKMMxiwwAATcsUtcAAAAZ 207.46.192.45 34405 195.49.139.12 80
+--a55dd234-B--
+GET /robots.txt HTTP/1.1
+Cache-Control: no-cache
+Connection: Keep-Alive
+Pragma: no-cache
+Accept: */*
+Accept-Encoding: 
+From: bingbot(at)microsoft.com
+Host: photo.ryte.de
+User-Agent: Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+
+--a55dd234-F--
+HTTP/1.1 404 Not Found
+Content-Length: 208
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--a55dd234-H--
+Apache-Error: [file "core.c"] [line 3726] [level 3] File does not exist: /home/ryte.de/photo/robots.txt
+Stopwatch: 1336575016439294 31673 (1426 30782 -)
+Producer: ModSecurity for Apache/2.5.13 (http://www.modsecurity.org/); core ruleset/2.0.10.
+Server: Apache/2.2.22 (FreeBSD) mod_ssl/2.2.22 OpenSSL/0.9.8q DAV/2 PHP/5.3.10 with Suhosin-Patch
+
+--a55dd234-Z--

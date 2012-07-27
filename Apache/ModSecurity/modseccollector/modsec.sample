@@ -1,0 +1,21 @@
+--09f1fd10-A--
+[25/Jul/2012:16:34:44 +0000] UBAgJMMxiwwAAPrYja0AAAAl 208.115.113.89 34883 195.49.139.12 80
+--09f1fd10-B--
+GET /robots.txt HTTP/1.1
+Host: gesichtweisen.com
+Accept: */*
+User-agent: Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+Accept-Charset: utf-8;q=0.7,iso-8859-1;q=0.2,*;q=0.1
+
+--09f1fd10-F--
+HTTP/1.1 404 Not Found
+Content-Length: 208
+Content-Type: text/html; charset=iso-8859-1
+
+--09f1fd10-H--
+Apache-Error: [file "core.c"] [line 3726] [level 3] File does not exist: /home/gesichtweisen.com/htdocs/robots.txt
+Stopwatch: 1343234084280265 2620 (596 2016 -)
+Producer: ModSecurity for Apache/2.5.13 (http://www.modsecurity.org/); core ruleset/2.0.10.
+Server: Apache/2.2.22 (FreeBSD) mod_ssl/2.2.22 OpenSSL/0.9.8q DAV/2 PHP/5.3.10 with Suhosin-Patch
+
+--09f1fd10-Z--

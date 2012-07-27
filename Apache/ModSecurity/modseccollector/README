@@ -1,0 +1,13 @@
+Required files:
+
+3.1:
+
+- Legacy mojo: https://github.com/jamadam/mojo-legacy
+- Recent IO::Socket::SSL
+  Run cpan, configure it to suit your environment
+  type: install IO::Socket::SSL
+
+4.0
+
+- cpan
+  install Mojolicious

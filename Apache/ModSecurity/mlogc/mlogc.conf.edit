@@ -1,0 +1,10 @@
+CollectorRoot       "/var/log/mlogc"
+ConsoleURI          "https://sensor-ip-address/rpc/auditLogReceiver"
+SensorUsername      "mlogc"
+SensorPassword      "collector"
+LogStorageDir       "/var/log/modsecurity/audit"
+TransactionLog      "mlogc-transaction.log"
+QueuePath           "mlogc-queue.log"
+ErrorLog            "mlogc-error.log"
+LockFile            "mlogc.lck"
+KeepEntries         0

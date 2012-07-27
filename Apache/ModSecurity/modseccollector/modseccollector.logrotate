@@ -1,0 +1,12 @@
+/var/log/modsecurity.log /var/log/modsec_collector.log {
+  compress
+  rotate 7
+  daily
+  missingok
+  prerotate
+    /usr/share/ossim/modseccollector/stop.sh >/dev/null 2>&1
+  endscript
+  postrotate
+    /usr/share/ossim/modseccollector/start.sh >/dev/null 2>&1
+  endscript
+}

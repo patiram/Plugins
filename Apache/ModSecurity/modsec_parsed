@@ -1,0 +1,108 @@
+$VAR1 = bless( {
+                 'body' => '--ac48d83d-A--
+[11/Apr/2012:13:31:06 +0000] T4WHmsMxiwwAAMxbM1AAAAAI 188.227.187.44 52102 195.49.139.12 80
+--ac48d83d-B--
+GET /index.php?showimage=3 HTTP/1.1
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.9.1.6) Gecko/20091216 Fedora/3.5.6-1.fc11 Firefox/3.5.6 GTB6
+Referer: http://photo.ryte.de/index.php?showimage=3
+Host: photo.ryte.de
+Connection: Keep-Alive
+
+--ac48d83d-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 211
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ac48d83d-H--
+Message: Access denied with code 403 (phase 2). Operator EQ matched 0 at REQUEST_HEADERS. [file "/usr/local/etc/apache22/Includes/mod_security2/base_rules/modsecurity_crs_21_protocol_anomalies.conf"] [line "46"] [id "960015"] [rev "2.0.10"] [msg "Request Missing an Accept Header"] [severity "CRITICAL"] [tag "PROTOCOL_VIOLATION/MISSING_HEADER_ACCEPT"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Action: Intercepted (phase 2)
+Stopwatch: 1334151066090186 2936 (1416 2414 -)
+Producer: ModSecurity for Apache/2.5.13 (http://www.modsecurity.org/); core ruleset/2.0.10.
+Server: Apache/2.2.22 (FreeBSD) mod_ssl/2.2.22 OpenSSL/0.9.8q DAV/2 PHP/5.3.10 with Suhosin-Patch
+
+--ac48d83d-Z--
+'
+               }, 'ModSecParser' );
+$VAR1 = '--ac48d83d-A--';
+$VAR2 = '[11/Apr/2012:13:31:06 +0000] T4WHmsMxiwwAAMxbM1AAAAAI 188.227.187.44 52102 195.49.139.12 80';
+$VAR3 = '--ac48d83d-B--';
+$VAR4 = 'GET /index.php?showimage=3 HTTP/1.1';
+$VAR5 = 'User-Agent: Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.9.1.6) Gecko/20091216 Fedora/3.5.6-1.fc11 Firefox/3.5.6 GTB6';
+$VAR6 = 'Referer: http://photo.ryte.de/index.php?showimage=3';
+$VAR7 = 'Host: photo.ryte.de';
+$VAR8 = 'Connection: Keep-Alive';
+$VAR9 = '';
+$VAR10 = '--ac48d83d-F--';
+$VAR11 = 'HTTP/1.1 403 Forbidden';
+$VAR12 = 'Content-Length: 211';
+$VAR13 = 'Keep-Alive: timeout=5, max=100';
+$VAR14 = 'Connection: Keep-Alive';
+$VAR15 = 'Content-Type: text/html; charset=iso-8859-1';
+$VAR16 = '';
+$VAR17 = '--ac48d83d-H--';
+$VAR18 = 'Message: Access denied with code 403 (phase 2). Operator EQ matched 0 at REQUEST_HEADERS. [file "/usr/local/etc/apache22/Includes/mod_security2/base_rules/modsecurity_crs_21_protocol_anomalies.conf"] [line "46"] [id "960015"] [rev "2.0.10"] [msg "Request Missing an Accept Header"] [severity "CRITICAL"] [tag "PROTOCOL_VIOLATION/MISSING_HEADER_ACCEPT"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]';
+$VAR19 = 'Action: Intercepted (phase 2)';
+$VAR20 = 'Stopwatch: 1334151066090186 2936 (1416 2414 -)';
+$VAR21 = 'Producer: ModSecurity for Apache/2.5.13 (http://www.modsecurity.org/); core ruleset/2.0.10.';
+$VAR22 = 'Server: Apache/2.2.22 (FreeBSD) mod_ssl/2.2.22 OpenSSL/0.9.8q DAV/2 PHP/5.3.10 with Suhosin-Patch';
+$VAR23 = '';
+$VAR24 = '--ac48d83d-Z--';
+
+$VAR1 = bless( {
+                 'parsed' => {
+                               'H' => [
+                                        'Message: Access denied with code 403 (phase 2). Operator EQ matched 0 at REQUEST_HEADERS. [file "/usr/local/etc/apache22/Includes/mod_security2/base_rules/modsecurity_crs_21_protocol_anomalies.conf"] [line "46"] [id "960015"] [rev "2.0.10"] [msg "Request Missing an Accept Header"] [severity "CRITICAL"] [tag "PROTOCOL_VIOLATION/MISSING_HEADER_ACCEPT"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]',
+                                        'Action: Intercepted (phase 2)',
+                                        'Stopwatch: 1334151066090186 2936 (1416 2414 -)',
+                                        'Producer: ModSecurity for Apache/2.5.13 (http://www.modsecurity.org/); core ruleset/2.0.10.',
+                                        'Server: Apache/2.2.22 (FreeBSD) mod_ssl/2.2.22 OpenSSL/0.9.8q DAV/2 PHP/5.3.10 with Suhosin-Patch',
+                                        ''
+                                      ],
+                               'F' => [
+                                        'HTTP/1.1 403 Forbidden',
+                                        'Content-Length: 211',
+                                        'Keep-Alive: timeout=5, max=100',
+                                        'Connection: Keep-Alive',
+                                        'Content-Type: text/html; charset=iso-8859-1',
+                                        ''
+                                      ],
+                               'A' => [
+                                        '[11/Apr/2012:13:31:06 +0000] T4WHmsMxiwwAAMxbM1AAAAAI 188.227.187.44 52102 195.49.139.12 80'
+                                      ],
+                               'B' => [
+                                        'GET /index.php?showimage=3 HTTP/1.1',
+                                        'User-Agent: Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.9.1.6) Gecko/20091216 Fedora/3.5.6-1.fc11 Firefox/3.5.6 GTB6',
+                                        'Referer: http://photo.ryte.de/index.php?showimage=3',
+                                        'Host: photo.ryte.de',
+                                        'Connection: Keep-Alive',
+                                        ''
+                                      ]
+                             },
+                 'body' => '--ac48d83d-A--
+[11/Apr/2012:13:31:06 +0000] T4WHmsMxiwwAAMxbM1AAAAAI 188.227.187.44 52102 195.49.139.12 80
+--ac48d83d-B--
+GET /index.php?showimage=3 HTTP/1.1
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; zh-CN; rv:1.9.1.6) Gecko/20091216 Fedora/3.5.6-1.fc11 Firefox/3.5.6 GTB6
+Referer: http://photo.ryte.de/index.php?showimage=3
+Host: photo.ryte.de
+Connection: Keep-Alive
+
+--ac48d83d-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 211
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ac48d83d-H--
+Message: Access denied with code 403 (phase 2). Operator EQ matched 0 at REQUEST_HEADERS. [file "/usr/local/etc/apache22/Includes/mod_security2/base_rules/modsecurity_crs_21_protocol_anomalies.conf"] [line "46"] [id "960015"] [rev "2.0.10"] [msg "Request Missing an Accept Header"] [severity "CRITICAL"] [tag "PROTOCOL_VIOLATION/MISSING_HEADER_ACCEPT"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Action: Intercepted (phase 2)
+Stopwatch: 1334151066090186 2936 (1416 2414 -)
+Producer: ModSecurity for Apache/2.5.13 (http://www.modsecurity.org/); core ruleset/2.0.10.
+Server: Apache/2.2.22 (FreeBSD) mod_ssl/2.2.22 OpenSSL/0.9.8q DAV/2 PHP/5.3.10 with Suhosin-Patch
+
+--ac48d83d-Z--
+'
+               }, 'ModSecParser' );

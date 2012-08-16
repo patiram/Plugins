@@ -13,5 +13,5 @@ INSERT IGNORE INTO plugin_sid (plugin_id, sid, name, priority, reliability, cate
   VALUES
     (9001, 1, 'Firebrick: Allowed traffic', 2,2, 3, 75),
     (9001, 2, 'Firebrick: Rejected traffic', 2,2, 3, 76),
-    (9001, 3, 'Firebrick: Traffic stats', 2,2, 3, 143);
-
+    (9001, 3, 'Firebrick: Traffic stats', 2,2, 3, 143),
+    (9001, 4, 'Firebrick: Traffic stats', 2,2, NULL, NULL);

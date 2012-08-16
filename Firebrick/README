@@ -1,0 +1,21 @@
+Define a logger in the web interface or XML:
+
+ <log name="AlienVault">
+  <syslog server="192.168.16.65"
+          severity="NOTICE"
+          facility="LOCAL0"
+          comment="AlienVault Logging"/>
+ </log>
+
+For all rules and items that should log, please specify the AlienVault logger 
+defined above. See example below:
+
+ <rule-set name="Outside-Inside"
+           target-ip="192.168.5.254"
+           log="AlienVault"
+           log-end="AlienVault"
+           log-no-match="AlienVault"
+           no-match-action="continue"
+           comment="FW Ruleset for incoming traffic">
+
+
